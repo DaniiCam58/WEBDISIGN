@@ -1,0 +1,53 @@
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0;
+    }
+
+    section {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    article {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      padding: 0.5rem;
+      border: 2px dashed rgb(119, 8, 245);
+    }
+
+    span {
+      background-color: rgba(0, 162, 255, 0.514);
+      border-radius: 6px;
+      padding: 10px;
+      margin: 2px;
+      min-width: 40px;
+      text-align: center;
+    }
+    
+
+    .ex1 span:nth-child(1) { order: 1; }
+    .ex1 span:nth-child(2) { order: 1; }
+    .ex1 span:nth-child(3) { order: 2; }
+    .ex1 span:nth-child(4) { order: 3; }
+
+    .ex2 span:nth-child(1) { order: -1; }
+    .ex2 span:nth-child(2) { order: 1; }
+    .ex2 span:nth-child(3) { order: 2; }
+    .ex2 span:nth-child(4) { order: 5; }
+
+    .ex3 span:nth-child(1) { order: 2; }
+    .ex3 span:nth-child(2) { order: 2; }
+    .ex3 span:nth-child(3) { order: 50;}
+    
+footer{
+      background-color: #f3d1ff;
+      color: black;
+      text-align: center;
+      padding: 1rem;
+}

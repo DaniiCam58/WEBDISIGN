@@ -1,0 +1,33 @@
+main{
+    background: blue;
+    width: 900px;
+    border: purple 4px solid;
+    margin: 0 auto;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+/*Maquetado para tablet*/
+
+@media screen and (max-width: 700px){
+    main{
+        background: red;
+        border: gray 4px solid;
+        font-size: 1.5rem;
+        color: aqua;
+        width: 650px;
+    }
+}
+/*Maquetado para celular*/
+
+@media screen and (max-width: 450px) {
+    main{
+        background: greenyellow;
+        border: pink 4px solid;
+        font-size: 0.8rem;
+        font-family: comic sans-serif;
+        color: black;
+        width: unset;
+        margin: unset;
+    }
+}

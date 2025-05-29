@@ -1,0 +1,26 @@
+main{
+    background: rgb(0, 4, 229);
+    padding: 1rem;
+}
+
+section, article{
+    border: solid gray;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+section{
+    background: rgba(116, 74, 231, 0.823);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article{
+    background: pink;
+    width: 46%;
+    /* flex-grow: 1; */
+    height: 100px;
+}
+
+#todo{width: 100%;}

@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main {background: rgb(119, 22, 237);padding: 1rem;}
+
+section {background: rgba(183, 136, 237, 0.619);display: flex; }
+
+article {
+     background: rgb(118, 201, 239);
+     border:dotted 3px; 
+     font-size: 2rem;
+     flex-grow: 1;
+     font-size: 2rem;
+     height: 150px;
+     width: 150px;
+     text-align: center;
+     align-items: center;
+     justify-content:center;
+    }
+
+section, article {
+    margin: 1rem; 
+    border-radius: 1rem; 
+    border: solid 4px black;
+}
+.sencillo {flex-grow: 1;}
+.doble {flex-grow: 2;}
+.triple {flex-grow: 3;}
+
+.order0 {order: 1;}
+.ordernegative {order: -1;}

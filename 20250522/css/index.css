@@ -1,0 +1,75 @@
+* { box-sizing: border-box; margin: 0; padding: 0;}
+
+body { display: grid; grid-template-columns: repeat(6, 1fr);}
+
+header {
+    grid-column: 1 /-1;
+    display: grid; grid-template-rows: 110px; 
+    grid-template-columns: 2fr 4fr;
+    background: rgba(32, 28, 238, 0.363);
+    
+}
+header img { width: 20%; justify-self: center;}
+
+header h1{
+    align-self: center;
+}
+
+
+nav { grid-column: 1 / -1; /*el menu ocupara la segunda fila*/
+    border: dotted rgb(72, 8, 128);
+}
+
+nav ul { 
+    display: grid;
+    grid-template-columns: 1fr repeat(5, 160px) 1fr;
+    list-style: none;
+}
+nav a {
+    display: grid;
+    border: solid rgb(119, 0, 255);
+    padding: .5rem 2rem;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover { background: lightblue; color: black;}
+
+main{ 
+    grid-column: 1 /5;
+    border: solid blue;padding: 1rem;
+}
+aside{ border: rgb(224, 248, 2) solid; grid-column: -3 / -1;}
+
+footer { grid-column: 1 / -1; height: 80px; padding: 2rem; background: rgba(233, 76, 76, 0.808);}
+
+section { border: dotted rgb(2, 255, 44) 5px;}
+
+.primera { display:grid; grid-template-columns: 1fr 1fr;}
+
+article { background-color: rgba(35, 155, 247, 0.774);
+     border-radius: 1rem; margin: 1rem;
+}
+.img_left img {grid-row: 1 / -1;}
+.img_right { 
+    display: grid;
+    height: 10px;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr 3fr;
+}
+.img_right img { grid-row:  1 / -1; grid-column: -2 / -1;}
+
+article img {
+    width: 100%;
+    max-width: 80px;
+    height: auto;
+    display: grid;
+    margin: auto;
+    border-radius: 1rem
+}
+
+header img {
+    width: 80px; 
+    height: auto;
+    display: grid;
+    border-radius: 1rem;
+}

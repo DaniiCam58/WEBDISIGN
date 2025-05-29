@@ -1,0 +1,24 @@
+section {
+    display: flex;
+    background-color: rgb(85, 123, 219);
+}
+
+article {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(226, 153, 242);
+}
+
+
+section, article {
+    border: solid 3px;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+#izq { justify-content: flex-start;}
+#der { justify-self: flex-end;}
+#center { justify-content: center;}
+#space { justify-content: space-around;}
+#between { justify-self: space-between}
+#space { justify-self: space-evenly;}

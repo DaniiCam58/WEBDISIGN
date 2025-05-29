@@ -1,0 +1,23 @@
+main{
+    background: rgba(95, 20, 226, 0.7);
+    padding: 16px;
+}
+section{
+    background: rgba(4, 154, 242, 0.779);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+article{
+    background: rgba(0, 229, 255, 0.904);
+    width: 46%;
+    height: 100px;
+}
+section, article{
+    border: solid rgb(32, 20, 20);
+    margin: 1rem;
+    border-radius: 1rem;
+}
+#todo{
+    width: 100%;
+}
